@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Book as BookType } from "./types";
+import { Book as BookType } from "./data/types";
 import Modal from "./Modal";
 
 interface Props {

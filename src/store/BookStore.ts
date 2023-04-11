@@ -1,5 +1,5 @@
 import { observable, action, makeObservable, runInAction } from "mobx";
-import { Book } from "../types";
+import { Book } from "../data/types";
 
 class BookStore {
   @observable books: Book[] = [];
